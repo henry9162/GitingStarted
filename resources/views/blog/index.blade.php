@@ -16,7 +16,7 @@
 
 			<p>{{ substr(strip_tags($post->body), 0, 250) }}{{ strlen(strip_tags($post->body)) > 250 ? '...' : "" }}</p>
 
-			<a href="{{ route('blog.single', $post->slug) }}" class="btn btn-primary btn-sm">Read More...</a>
+			<a href="{{ route('blog.single', $post->slug) }}" class="btn btn-primary btn-sm">Read More</a>
 			<hr>
 		</div>
 	</div>
